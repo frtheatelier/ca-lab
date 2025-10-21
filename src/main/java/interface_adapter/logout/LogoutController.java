@@ -18,5 +18,6 @@ public class LogoutController {
      */
     public void execute() {
         // TODO: run the use case interactor for the logout use case
+        logoutUseCaseInteractor.execute();
     }
 }
